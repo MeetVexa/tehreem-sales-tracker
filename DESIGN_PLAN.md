@@ -1,0 +1,7 @@
+# Design plan — Tehreem Hussain Sales Tracker
+1. Position this as a private, straightforward sales-operations workspace, explicitly separate from CRM data and backed by this browser only.
+2. Build a compact dashboard information hierarchy: persistent sidebar/navigation, page header and date context, verified-only KPI cards, performance-by-owner summary, and lead/payment ledger.
+3. Use a calm premium cream-and-ink canvas with deep evergreen accents, restrained lime highlights, clear typography, subtle grid/line details, and custom dashboard cards rather than generic marketing imagery.
+4. Conversion/utility strategy: prioritize a prominent “Add lead” action, useful filters/search, editable/deletable entries, and payment verification fields; collected totals include only payments with a checked verification record. Start genuinely empty with zero totals and explain why.
+5. Responsive behavior: collapse navigation into a top header, stack KPI and summary cards, and keep ledger rows legible/scrollable on phones; forms fit narrow screens.
+6. QA gates: verify localStorage hydration/persistence, empty-state truthfulness, verification-gated sums, add/edit/delete and filtering; install dependencies and require a passing production build before publishing.
